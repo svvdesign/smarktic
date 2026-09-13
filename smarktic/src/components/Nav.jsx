@@ -36,7 +36,7 @@ export default function Nav({ path }) {
         transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
       >
         <Link to="/" className="nav-logo" aria-label="Smarktic home">
-          <img src="/logo.svg" alt="" width="30" height="30" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" width="30" height="30" />
           <span>Smarktic</span>
         </Link>
 

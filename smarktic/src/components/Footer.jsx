@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <Link to="/" className="nav-logo">
-            <img src="/logo.svg" alt="" width="30" height="30" />
+            <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" width="30" height="30" />
             <span>Smarktic</span>
           </Link>
           <p className="footer-tagline">
